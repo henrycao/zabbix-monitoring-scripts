@@ -22,7 +22,7 @@ This script can get which one is lvs master and get the mount of lvs active and 
 
 ###userparameter_memcached.conf
 This script provids a lot of args which can be used here. Things like:  
-`$ telnet localhost 11211`
+`$ telnet localhost 11211`  
 `$ STATS`
 
 ###userparameter_mysql.conf
