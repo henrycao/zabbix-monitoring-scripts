@@ -28,12 +28,12 @@ This script provids a lot of args which can be used here. Things like:
 ###userparameter_mysql.conf
 Make sure you have put one configure file in /var/lib/zabbix/.my.cnf  
 put something like the following:  
-`[client]`
-`port            = 3306`
-`socket          = /tmp/mysql.sock`
-`default-character-set= utf8`
-`user            = monitor`
-`password        = monitor`
+`[client]`  
+`port            = 3306`  
+`socket          = /tmp/mysql.sock`  
+`default-character-set= utf8`  
+`user            = monitor`  
+`password        = monitor`  
 
 ###userparameter_redis.conf
 This is just like what we have done in memcached.  
