@@ -7,6 +7,13 @@ Some zabbix monitoring scripts in use
 Usually we put these configure in `$path/etc/zabbix.agentd.conf.d/`  
 Make sure you have include this path in `$path/etc/zabbix.agent.conf`  
 
+##Use zabbix start stop script  
+
+	ln -s $path/script/zabbix_server /etc/init.d/
+	ln -s $path/script/zabbix_agentd /etc/init.d/
+
+Then you can use the start stop script easily
+
 ##What should do next? 
 Make sure your zabbix user have the sudo authorication.   
 After you have put these scripts on you monitoring server, you should login to the zabbix-gui to configure them.  
