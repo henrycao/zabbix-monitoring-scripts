@@ -50,3 +50,8 @@ It is the `$ INFO` command
 You can get the nginx accepts, handled, requests, active, reading, writing, waiting from this script.  
 Make sure you have already have the nginx_sub_status module.  
 Configure the right path to the script used in this conf. The script is in `scripts/nginx`.  
+
+##Template  
+Use template on zabbix gui with 
+
+    configuration -> Templates -> import
