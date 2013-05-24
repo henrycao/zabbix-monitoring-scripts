@@ -53,15 +53,12 @@ Configure the right path to the script used in this conf. The script is in `scri
 
 make sure you have put these code on nginx.conf
 
-	server {
-        listen 80 default;
+    server {
+        listen 80;
         location /nginx_status {
             stub_status on;
             allow 127.0.0.1;
             deny all;
-        }
-        location /{
-            return 403;
         }
     }
 
