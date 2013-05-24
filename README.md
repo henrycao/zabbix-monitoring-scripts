@@ -51,6 +51,21 @@ You can get the nginx accepts, handled, requests, active, reading, writing, wait
 Make sure you have already have the nginx_sub_status module.  
 Configure the right path to the script used in this conf. The script is in `scripts/nginx`.  
 
+make sure you have put these code on nginx.conf
+
+	server {
+        listen 80 default;
+        location /nginx_status {
+            stub_status on;
+            allow 127.0.0.1;
+            deny all;
+        }
+        location /{
+            return 403;
+        }
+    }
+
+
 ##Template  
 Use template on zabbix gui with 
 
