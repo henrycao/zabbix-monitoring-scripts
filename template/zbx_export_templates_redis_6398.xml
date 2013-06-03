@@ -9,8 +9,8 @@
     </groups>
     <templates>
         <template>
-            <template>Template App Redis</template>
-            <name>Template App Redis</name>
+            <template>Template App Redis 6398</template>
+            <name>Template App Redis 6398</name>
             <groups>
                 <group>
                     <name>Redis</name>
@@ -1187,7 +1187,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Redis</host>
+                        <host>Template App Redis 6398</host>
                         <key>redis_6398.stat[used_cpu_sys]</key>
                     </item>
                 </graph_item>
@@ -1199,7 +1199,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Redis</host>
+                        <host>Template App Redis 6398</host>
                         <key>redis_6398.stat[used_cpu_user]</key>
                     </item>
                 </graph_item>
@@ -1231,7 +1231,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Redis</host>
+                        <host>Template App Redis 6398</host>
                         <key>redis_6398.stat_used_memory_mb</key>
                     </item>
                 </graph_item>
@@ -1243,7 +1243,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Redis</host>
+                        <host>Template App Redis 6398</host>
                         <key>redis_6398.stat_used_memory_peak_mb</key>
                     </item>
                 </graph_item>
@@ -1255,7 +1255,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Redis</host>
+                        <host>Template App Redis 6398</host>
                         <key>redis_6398.stat_used_memory_rss_mb</key>
                     </item>
                 </graph_item>
@@ -1287,7 +1287,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Redis</host>
+                        <host>Template App Redis 6398</host>
                         <key>redis_6398.stat[aof_rewrite_in_progress]</key>
                     </item>
                 </graph_item>
@@ -1299,7 +1299,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Redis</host>
+                        <host>Template App Redis 6398</host>
                         <key>redis_6398.stat[aof_rewrite_scheduled]</key>
                     </item>
                 </graph_item>
