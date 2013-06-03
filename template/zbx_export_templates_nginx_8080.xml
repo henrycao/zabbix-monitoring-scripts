@@ -4,7 +4,7 @@
     <date>2013-05-24T06:45:14Z</date>
     <groups>
         <group>
-            <name>Nginx Server</name>
+            <name>Nginx Server 8080</name>
         </group>
     </groups>
     <templates>
@@ -13,17 +13,17 @@
             <name>Template App Nginx 8080</name>
             <groups>
                 <group>
-                    <name>Nginx Server</name>
+                    <name>Nginx Server 8080</name>
                 </group>
             </groups>
             <applications>
                 <application>
-                    <name>Nginx</name>
+                    <name>Nginx 8080</name>
                 </application>
             </applications>
             <items>
                 <item>
-                    <name>Nginx Accepts</name>
+                    <name>Nginx Accepts 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -56,13 +56,13 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Nginx</name>
+                            <name>Nginx 8080</name>
                         </application>
                     </applications>
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Accepts AVG</name>
+                    <name>Nginx Accepts AVG 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -130,13 +130,13 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Nginx</name>
+                            <name>Nginx 8080</name>
                         </application>
                     </applications>
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Connections Active</name>
+                    <name>Nginx Connections Active 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -169,13 +169,13 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Nginx</name>
+                            <name>Nginx 8080</name>
                         </application>
                     </applications>
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Connections Reading</name>
+                    <name>Nginx Connections Reading 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -208,13 +208,13 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Nginx</name>
+                            <name>Nginx 8080</name>
                         </application>
                     </applications>
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Connections Waiting</name>
+                    <name>Nginx Connections Waiting 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -247,13 +247,13 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Nginx</name>
+                            <name>Nginx 8080</name>
                         </application>
                     </applications>
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Connections Writing</name>
+                    <name>Nginx Connections Writing 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -286,13 +286,13 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Nginx</name>
+                            <name>Nginx 8080</name>
                         </application>
                     </applications>
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Handled</name>
+                    <name>Nginx Handled 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -325,13 +325,13 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Nginx</name>
+                            <name>Nginx 8080</name>
                         </application>
                     </applications>
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Handled AVG</name>
+                    <name>Nginx Handled AVG 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -366,7 +366,7 @@
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Number of running processes</name>
+                    <name>Nginx Number of running processes 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -399,13 +399,13 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Nginx</name>
+                            <name>Nginx 8080</name>
                         </application>
                     </applications>
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Request AVG</name>
+                    <name>Nginx Request AVG 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -440,7 +440,7 @@
                     <valuemap/>
                 </item>
                 <item>
-                    <name>Nginx Requests</name>
+                    <name>Nginx Requests 8080</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -473,7 +473,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Nginx</name>
+                            <name>Nginx 8080</name>
                         </application>
                     </applications>
                     <valuemap/>
