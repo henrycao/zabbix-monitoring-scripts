@@ -544,7 +544,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.accepts.avg</key>
                     </item>
                 </graph_item>
@@ -556,7 +556,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.handled.avg</key>
                     </item>
                 </graph_item>
@@ -588,7 +588,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.connections.active</key>
                     </item>
                 </graph_item>
@@ -600,7 +600,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.connections.writing</key>
                     </item>
                 </graph_item>
@@ -612,7 +612,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.connections.waiting</key>
                     </item>
                 </graph_item>
@@ -624,7 +624,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.connections.reading</key>
                     </item>
                 </graph_item>
@@ -656,7 +656,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.requests.avg</key>
                     </item>
                 </graph_item>
@@ -688,7 +688,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.accepts</key>
                     </item>
                 </graph_item>
@@ -700,7 +700,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.handled</key>
                     </item>
                 </graph_item>
@@ -712,7 +712,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template App Nginx</host>
+                        <host>Template App Nginx 8080</host>
                         <key>nginx_8080.requests</key>
                     </item>
                 </graph_item>
