@@ -519,7 +519,7 @@
     </triggers>
     <graphs>
         <graph>
-            <name>Nginx accept &amp; handle AVG</name>
+            <name>Nginx accept &amp; handle AVG 8080</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -563,7 +563,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>Nginx Clients Status</name>
+            <name>Nginx Clients Status 8080</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -631,7 +631,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>Nginx Request AVG</name>
+            <name>Nginx Request AVG 8080</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -663,7 +663,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>Nginx Socket Status</name>
+            <name>Nginx Socket Status 8080</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
