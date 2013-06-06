@@ -55,3 +55,8 @@ Configure the right path to the script used in this conf. The script is in `scri
 Use template on zabbix gui with 
 
     configuration -> Templates -> import
+
+##scripts/mail.py
+
+    This is a mail script which can relay 163 mail.  
+    Add a new media type with this script in zabbix and you can easily sending alert mail.
