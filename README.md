@@ -58,5 +58,5 @@ Use template on zabbix gui with
 
 ##scripts/mail.py
 
-    This is a mail script which can relay 163 mail.  
-    Add a new media type with this script in zabbix and you can easily sending alert mail.
+This is a mail script which can relay 163 mail.  
+Add a new media type with this script in zabbix and you can easily sending alert mail.
