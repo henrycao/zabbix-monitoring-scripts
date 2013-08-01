@@ -3,7 +3,7 @@
 # Set Variables
 #HOST=`/sbin/ifconfig em1 | sed -n '/inet /{s/.*addr://;s/ .*//;p}'`
 HOST='127.0.0.1'
-PORT="80"
+PORT="8080"
 
 # Functions to return nginx stats
 

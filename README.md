@@ -42,14 +42,18 @@ put something like the following:
 `user            = monitor`  
 `password        = monitor`  
 
-###userparameter_redis.conf
+###userparameter_redis.conf  
 This is just like what we have done in memcached.  
 It is the `$ INFO` command
 
-###userparameter_nginx.conf
+###userparameter_nginx.conf  
 You can get the nginx accepts, handled, requests, active, reading, writing, waiting from this script.  
 Make sure you have already have the nginx_sub_status module.  
 Configure the right path to the script used in this conf. The script is in `scripts/nginx`.  
+
+###userparameter_processor.conf  
+you can set a key with parameter in zabbix gui,or modify this script to define process name directly.
+Know that when you have several processors with the same name, like nginx workers, you could not identity with them.
 
 ##Template  
 Use template on zabbix gui with 
@@ -60,3 +64,10 @@ Use template on zabbix gui with
 
 This is a mail script which can relay 163 mail.  
 Add a new media type with this script in zabbix and you can easily sending alert mail.
+
+##nginx_spreate_requests
+This script is totally with the usage of [tsdb](opentsdb.net),which is a useful tool to watch http requests.
+you should do the followings to use it:
+1. set a crontab to this script with 1min 5min all of them is ok
+2. modify the script, add the server ip and the hostname in zabbix. each server should have a different hostname.(must match in zabbix)
+3. add an item with zabbix trapper in gui, key name should match the script
