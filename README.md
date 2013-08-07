@@ -71,3 +71,7 @@ you should do the followings to use it:
 1. set a crontab to this script with 1min 5min all of them is ok
 2. modify the script, add the server ip and the hostname in zabbix. each server should have a different hostname.(must match in zabbix)
 3. add an item with zabbix trapper in gui, key name should match the script
+
+##tcp_connectpy
+this script allows you send some data to a tcp server, and then get the response to judge whether the server runs well.  
+you need to replace the all the parameters on your own
