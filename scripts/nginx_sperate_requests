@@ -12,8 +12,6 @@ del_cmd="/bin/rm -f ${read_files} ${middle_files}"
 nginx_exec=/opt/nginx/sbin/nginx
 nginx_opt='-s reopen'
 zabbix_exec=/opt/zabbix/bin/zabbix_sender
-zabbix_server=
-client=
 
 # del read files first
 $del_cmd
@@ -21,7 +19,7 @@ $del_cmd
 # rename log file,and tell nginx reopen the log file
 for file in $log_files
         do
-        /bin/cp $file "$file".middle
+        /bin/mv $file "$file".middle
         $nginx_exec $nginx_opt
         /bin/egrep -v 'nginx_status|favcion' $file.middle >> "$file".read
 done
@@ -31,12 +29,11 @@ done
 for file in $read_files
         do
         filename=`ls -l $file | awk '{print $9}' | awk -F "_access" '{print $1}' | awk -F "shm/" '{print $2}'`
-        a=($(awk 'BEGIN{code_ok=0;code_4xx=0;code_5xx=0}{if($12 ~ /^"1|"2|"3/) code_ok++;if($12 ~ /^"4/) code_4xx++;if($12 ~ /^"5/) code_5xx++}END{print code_ok,code_4xx,code_5xx}' $read_files 2>/dev/null))
-        $zabbix_exec -z $zabbix_server  -p 10051 -s "$client" -k trapper.nginx.reqs.$filename.123 -o "${a[0]}"
-        $zabbix_exec -z $zabbix_server  -p 10051 -s "$client" -k trapper.nginx.reqs.$filename.4xx -o "${a[1]}"
-        $zabbix_exec -z $zabbix_server  -p 10051 -s "$client" -k trapper.nginx.reqs.$filename.5xx -o "${a[2]}"
+        a=($(awk 'BEGIN{code_ok=0;code_4xx=0;code_5xx=0}{if($12 ~ /^"1|"2|"3/) code_ok++;if($12 ~ /^"4/) code_4xx++;if($12 ~ /^"5/) code_5xx++}END{print code_ok,code_4xx,code_5xx}' "$work_dir/$filename"_access.log.read 2>/dev/null))
+        $zabbix_exec -z 10.0.3.101 -p 10051 -s "10.0.5.35" -k trapper.nginx.reqs.$filename.123 -o "${a[0]}"
+        $zabbix_exec -z 10.0.3.101 -p 10051 -s "10.0.5.35" -k trapper.nginx.reqs.$filename.4xx -o "${a[1]}"
+        $zabbix_exec -z 10.0.3.101 -p 10051 -s "10.0.5.35" -k trapper.nginx.reqs.$filename.5xx -o "${a[2]}"
 done
 
 # del read files again
 $del_cmd
-
