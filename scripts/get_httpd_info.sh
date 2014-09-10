@@ -9,4 +9,8 @@ get_cpu_info(){
 	ps aux | grep httpd | grep -v grep | awk '{sum+=$3}END{print sum/'$CPUNUM'}'
 }
 
+get_child_process_num(){
+        ps aux | grep httpd | grep -Ev 'grep|root' | wc -l
+}
+
 $1
